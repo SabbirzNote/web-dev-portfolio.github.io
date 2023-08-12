@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- this link tag is for desktop styles...  -->
+    <link rel="stylesheet" href="desktop.css" >
+
+
+    <!-- css for mobile...  -->
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:992px)">
+
+
+    <!-- this link tag is for google fonts...  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- font awsome script...  -->
+    <script src="https://kit.fontawesome.com/4f0c522fb4.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Demo Project-i</title>
+</head>
+
+
+
+<body>
+<!-- header html starts here... -->
+<header>
+    <div class="header-container">
+        
+
+        <div class="header" id="logo-div">
+            <!-- this is html for logo top left...  -->
+            <img class="header-logo-top-section" id="logo-top" src="img/logo.png" alt="logo">
+        </div>
+
+        
+        <div class="header" id="link-div">
+            <div class="header-links-section"> 
+            <!-- css for links on header ... -->
+                <a class="header-links"  href="#">About</a>
+                <a class="header-links" href="#">Portfolio</a>
+                <a class="header-links" href="wa.me/8801715396614">Contact</a>
+            </div>
+        </div>
+
+
+        <div class="header" id="search-div">
+            <div class="header-searchbar-section">
+                <!-- this is for search bar right top ... -->
+                <input placeholder="Search..." type="text" class="searchbar">
+                <!-- <img class="search-icon" src="img/search.png" alt="logo"> -->
+            </div>
+        </div>
+
+
+    </div>
+</header>
+<!-- header html ends here... -->
+
+
+
+
+<!-- ........................................................................................................................... -->
+
+
+
+
+<!-- Top left div html starts here... -->
+<section class="top-div-info-social-icon">
+        <div id="top-container-div">
+            <!-- this div with the id #top-int has every code related 
+            to the to div with img and the text ivan dan -->
+            <div id="left-div" class="top-right-left-intro" >
+                <!-- this html for the section after the header. it is for the name and contact button ...  -->
+                <div class="info-contact-container">
+                    <p class="im">I'm</p> 
+                    <p class="dan">Ivan Dan</p>
+                    <p class="python">Python Developer & ERPNext Consultant</p>
+
+                    <a href="#" class="contact">
+                         <!-- this is for the contact button next to the text ivan dan...  -->
+                         Contact Me
+                    </a>
+                </div>
+                
+            </div>
+    <!-- Top left div html ends here... -->
+
+
+    <!-- Top right div img html starts here..... -->
+            <div id="right-div" class="top-right-left-intro">
+                <!-- this part is for social media links. used fontawsome for the icons... 
+                    a ::before pseudo element has used for the vertical line  -->
+                <div class="social-links"> 
+                    <a href="#"> 
+                        <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </section> 
+<!-- Top right section img html starts here.....    -->
+
+
+<!-- About section starts here.... -->
+    <section class="about">
+        <div class="about-section">
+            <h1 class="about-header" >About</h1>
+            <div class="vr-line" id="about-header"></div>
+            <p class="para" id="about-header"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at magnam nam nobis 
+                numquam sapiente? Excepturi animi temporibus nostrum fuga pariatur, perspiciatis incidunt ullam sed hic modi tempora, repudiandae quae. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus fugiat quo a repellendus qui corrupti magnam, repellat deleniti, 
+                quod placeat! Quae cum iste reprehenderit sequi consequuntur maiores saepe perspiciatis 
+                inventore voluptate ducimus ea non expedita quisquam distinctio tempora sint eos, aut ad itaque nobis nam molestiae eaque. Nemo, fugiat.   
+            </p>
+        </div>
+    </section>
+
+<!-- About section ends here... -->
+
+
+
+<!-- My skill section starts here... -->
+<section class="skills-section">
+    <!-- the div with skills div class is invisible in the output. 
+        there is four divs for four lines of skill cards each has the same class .skills-div but different id... -->
+    <div class="skills-div" id="skills-div1">
+        
+        <div class="all-skills">
+            <!-- the first line of skills including py, flutter, ubuntu, git  -->
+            <img class="py-img" src="img/py.png" alt="py">
+            <p class="py-text">Python</p>
+        </div>
+        <div class="all-skills">
+            <img class="flutter-img" src="img/flutter.png" alt="Dlutter">
+            <p class="flutter-text">Flutter</p>
+        </div>
+        <div class="all-skills">
+            <img class="ubuntu-img" src="img/ubuntu.png" alt="Ubuntu">
+            <p class="Ubuntu-text">Ubuntu</p>
+        </div>
+        <div class="all-skills">
+            <img class="gsc-img" src="img/gsc.png" alt="Git Source Control">
+            <p class="gsc-text">Git Source Control</p>
+        </div>
+
+    </div>
+
+
+    <div class="skills-div" id="skills-div2">
+        <!-- the first line of skills including erp,mongo, html, js  -->
+        <div class="all-skills">
+            <img class="erpnext-img" src="img/erpnext.png" alt="ERPNext">
+            <p class="erpnext-text">ERPNext</p>
+        </div>
+        <div class="all-skills">
+            <img class="mongodb-img" src="img/mongodb.png" alt="mongodb">
+            <p class="mongodb-text">Mongodb</p>
+        </div>
+        <div class="all-skills">
+            <img class="html-css-img" src="img/html&css.png" alt="html&css">
+            <p class="html-css-text">Html & css</p>
+        </div>
+        <div class="all-skills">
+            <img class="js-img" src="img/js.png" alt="JS">
+            <p class="js-text">JavaScript</p>
+        </div>
+    </div>
+
+
+    <div class="skills-div" id="skills-div3">
+        <!-- the first line of skills including frappe, .net, flask -->
+        <div class="all-skills">
+            <img class="frappe-img" src="img/frappe.png" alt="Frappe">
+            <p class="frappe-text">Frappe</p>
+        </div>
+        <div class="all-skills">
+            <img class="net-img" src="img/net.png" alt=".Net">
+            <p class="net-text">MS .Net</p>
+        </div>
+        <div class="all-skills">
+            <img class="flask-img" src="img/flask.png" alt="Flask">
+            <p class="flask-text">Flask Microweb Framwork</p>
+        </div>
+        
+    </div>
+
+
+    <div class="skills-div" id="skills-div4">
+        <!-- the first line of skills including aws, sql...  -->
+        <div class="all-skills">
+            <img class="aws-img" src="img/aws.png" alt="AWS">
+            <p class="aws-text">AWS Server</p>
+        </div>
+        <div class="all-skills">
+            <img class="sql-img" src="img/mysql.png" alt="MySQL">
+            <p class="sql-text">My SQL</p>
+        </div>   
+    </div>
+</section>
+<!-- My skill section ends here... -->
+
+
+
+<!-- Portfolio section  starts here... -->
+<section class="portfolio">
+    <h1 class="portfolio-text">
+        Portfolio
+    </h1>
+    <div class="portfolio-container">
+        <!-- first line of portfolio has started here....  -->
+        <div class="portfolio-div" id="item1">
+            <div class="hover-div">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Repudiandae, quasi.
+                </p>
+                <a href="#" class="more">
+                    More →
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-div" id="item2">
+            <div class="hover-div">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Repudiandae, quasi.
+                </p>
+                <a href="#" class="more">
+                    More →
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-div" id="item3">
+            <div class="hover-div">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Repudiandae, quasi.
+                </p>
+                <a href="#" class="more">
+                    More →
+                </a>
+            </div>
+        </div>
+        <!-- first line of portfolio has started here....  -->
+    </div>
+
+
+
+    <div class="portfolio-container">
+        <!-- 2nd line of portfolio has started here....  -->
+        <div class="portfolio-div" id="item4">
+            <div class="hover-div">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Repudiandae, quasi.
+                </p>
+                <a href="#" class="more">
+                    More →
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-div" id="item5">
+            <div class="hover-div">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Repudiandae, quasi.
+                </p>
+                <a href="#" class="more">
+                    More →
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-div" id="item6">
+            <div class="hover-div">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Repudiandae, quasi.
+                </p>
+                <a href="#" class="more">
+                    More →
+                </a>
+            </div>
+        </div>
+        <!-- 2nd line of portfolio has started here....  -->
+    </div>
+
+    <div class="portfolio-div3">
+        <!-- button for view more link...  -->
+        <div class="view-more-div" >
+            <a href="#" class="more" id="more">
+                View More
+            </a>
+        </div>
+    </div>
+
+</section>
+<!-- Portfolio section  ends here... -->
+
+
+
+<!-- Experience section starts here... -->
+<section class="experience-section">
+    <p class="experience">Experience</p>
+    <div class="experience-container-div">
+
+
+
+        <div class="experience-div">
+            <div class="year-circle">
+                <!-- this div is for 2021 and arrow type bullet point ..  -->
+                <p class="year">
+                    2021
+                </p>
+            </div>
+
+
+            <div class="vr-line2">
+                <!-- this div is for the vertical line under the yellow circle  -->
+            </div>
+
+            <div class="experience-info">
+                
+                <p class="info-para">
+                    <h2 class="info-para-h1">
+                       Senior Python Developer 
+                    </h2>
+                    <h4 class="info-para-h4">
+                        Scottech, Toledo 
+                    </h4>
+                    <p class="experience-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Beatae ut, deserunt cumque enim voluptatem corrupti corporis 
+                        tempore cum omnis dolor quod explicabo commodi natus id harum 
+                        temporibus, iure ab quis fuga excepturi autem nesciunt. Quae harum 
+                        fugiat, ut numquam in illo modi dicta accusamus, 
+                        exercitationem nesciunt aspernatur, assumenda ullam illum.
+                        Mollitia fugiat facere, ullam esse laboriosam dignissimos neque quas 
+                        at  Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Beatae ut, deserunt cumque enim voluptatem corrupti corporis 
+                        tempore cum omnis dolor quod explicabo commodi natus id harum 
+                        temporibus, iure ab quis fuga excepturi autem nesciunt. Quae harum 
+                        fugiat, ut numquam in illo modi dicta accusamus, 
+                        exercitationem nesciunt aspernatur, assumenda ullam illum.
+                        Mollitia fugiat facere, ullam esse laboriosam dignissimos neque quas 
+                        at!
+                    </p>
+                </p>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="experience-div">
+            <div class="year-circle">
+                <!-- this div is for 2021 and arrow type bullet point ..  -->
+                <p class="year">
+                    2021
+                </p>
+                
+            </div>
+            <div class="vr-line2">
+                <!-- this div is for the vertical line under the yellow circle  -->
+            </div>
+            <div class="experience-info">
+                <p class="info-para">
+                    <h2 class="info-para-h1">
+                       Python Developer 
+                    </h2>
+                    <h4 class="info-para-h4">
+                        AutoGrid Systems, Naperville 
+                    </h4>
+                    <p class="experience-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Beatae ut, deserunt cumque enim voluptatem corrupti corporis 
+                        tempore cum omnis dolor quod explicabo commodi natus id harum 
+                        temporibus, iure ab quis fuga excepturi autem nesciunt. Quae harum 
+                        fugiat, ut numquam in illo modi dicta accusamus, 
+                        exercitationem nesciunt aspernatur, assumenda ullam illum.
+                        Mollitia fugiat facere, ullam esse laboriosam dignissimos neque quas 
+                        at  Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        
+                    </p>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!-- Experience section ends here... -->
+
+
+
+<!-- testimonial starts here... -->
+<section class="testimonial">
+    
+
+    <div class="testimonial-div-container">
+        <div class="testimonial-left-div">
+            <h1 class="testimonial">
+                Testimonial
+            </h1>
+            <p class="testimonial-description">
+                <!-- this p tag has ::before pseudo element  -->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto fugiat obcaecati quae eum eos ipsa illum, reprehenderit 
+                quaerat asperiores, assumenda in cumque soluta quas sunt.
+                <h4 class="quotee-name">
+                    Josef Sheron
+                </h4>
+                <p class="position">
+                    CEO, Omisoft
+                </p>
+            </p>
+        </div>
+    
+        <div class="testimonial-right-div">
+            <!-- this the image and yellow div html  -->
+              <img src="img/pic7.png" alt="" class="testimonial-img">
+        </div>
+    </div>
+
+
+</section>
+<!-- testimonial ends here... -->
+
+
+<!-- contact div starts here...  -->
+<section class="last-contact">
+    <h1 class="contact-text">
+        Contact
+    </h1>
+    <div class="last-contact-container">
+        <div class="mail-phone">
+            <div class="mail">
+                <p><i id="icons" class="fa-regular fa-envelope" style="color: #ffffff;"></i>example@email.com</p>
+            </div>
+            <div class="phone">
+                <p><i id="icons" class="fa-solid fa-phone" style="color: #ffffff;"></i>+880 12345678900</p>
+            </div>
+            
+        </div>
+        <div class="addr">
+            <p><i id="icons" class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Abc Road, x city</p>
+        </div>
+    </div>
+    <div class="last-social-icon-container">
+        <div class="last-social-icon">
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+        </div>
+    </div>
+</section>
+<!-- contact div ends here...  -->
+
+
+<!-- tnx 4 scrolling starts here...  -->
+<section class="tnx">
+
+    <div class="tnx-div">
+        <h1>"Thanks For Scrolling"</h1>
+    </div>
+
+</section>
+<!-- tnx 4 scrolling ends here...  -->
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    /* the bg color of whole page */
+    background-color: #31333B;
+    overflow-x: hidden;
+}
+
+section{
+    /* for every section of the page it sets some margin at top */
+    margin-top: 50px;
+}
+
+.top-div-info-social-icon{
+    /* it unsets the top margin given by rule above for top div */
+    margin-top: unset;
+}
+
+
+
+
+/* Header css starts here!...
+.............................................................. */
+header{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: tan;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 40vh;
+    background-color: tomato;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 33.33%;
+    margin-left: unset;
+}
+#logo-div{
+    background-color: red;
+    
+}
+
+#link-div{
+    background-color: orangered;
+}
+#search-div{
+    background-color: peru;
+}
+/* Header css ends here!...
+.............................................................. */

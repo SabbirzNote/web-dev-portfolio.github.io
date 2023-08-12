@@ -1,0 +1,856 @@
+*{
+    /* Default properties */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    }
+
+
+body{ 
+    /* the bg color of whole page */
+    background-color: #31333B;
+    overflow-x: hidden;
+    }
+
+section{
+    /* for every section of the page it sets some margin at top */
+    margin-top: 120px;
+    }
+
+.top-div-info-social-icon{
+    /* it unsets the top margin given by rule above for top div */
+    margin-top: unset;
+    }
+
+
+
+
+
+
+/* Header css starts here!...
+.............................................................. */
+header{
+    /* this is the parent of .header-div...  */
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    }
+.header{
+    /* this styles div element which is a child of  header... 
+    every div within header tag has the same class .header-div */
+    height: 100%;
+    float: left;
+    width: 33.333%;
+    /* there is 3 divs under header element
+    and 33.333% divides whole width for 3 divs...  */
+    }
+/* header css ends here...
+.............................................................. */
+
+
+
+/* here is logo css...
+..............................................................*/
+.header-logo-top-section{
+    margin-left: 45px;
+    margin-top: 35px;
+    width: 75px; 
+    
+    }
+#logo-div img{
+    margin-top: 15px;
+    width: 110px; 
+    }
+/* logo css ends here...
+..............................................................*/
+
+
+
+/* about, portfolio and contact css starts here...
+.............................................................. */
+.header-links-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    }
+
+.header-links{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 15px;
+    }
+/* about, portfolio and contact css starts here...
+.............................................................. */
+
+
+
+/* searchbar css starts here...
+.............................................................. */
+.search-icon{
+    /* icons property...  */
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px; 
+    }
+
+.header-searchbar-section{
+    /* searchbar div is here...  */
+    border-radius: 10px;
+    margin-top: 55px;
+    margin-right: 45px;
+    float: right;
+    background-color: #3D3E42;
+    width:190px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+    }
+
+.searchbar{
+    /* input tag css is here...  */
+    color: #ffffff;
+    padding-left: 8px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #3D3E42;
+    border: none;
+    }
+
+.searchbar:focus {
+    outline: none;  
+    }
+/* searchbar css ends here...
+.............................................................. */
+/* header css ends here....................................... */
+
+
+
+
+
+/* top div with picture starts here...
+.............................................................. */
+.top-div-info-social-icon{
+    width: 100vw;
+    height: 70vh; 
+}
+
+#top-container-div{
+    /* it designs the top div with image and shadow beneath it!
+    there is 2 div one at the left and one at the right........*/
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 100px #000000;
+    background-color: #34353A;
+    background-image: url(img/pic.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 80vh auto; 
+    }
+
+.top-right-left-intro{
+    /* ivan dan div design.... */
+    height: 70%;
+    float: left; 
+    }
+
+
+/* Top left div css starts here...
+.............................................................. */
+#left-div{
+    height: 80%;
+    width: 40%;
+    }
+
+.info-contact-container{
+    /* css for container of the text...  */
+    height: 210px;
+    width: 300px;
+    margin-top: 240px;
+    margin-left: 10%;
+    padding: 0;
+    }
+
+.im{
+    /* css for the text im...  */
+    font-size: 27px;
+    float: left;
+    margin-top: 16px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    }
+
+.dan{
+    /* css for the text dan...  */
+    font-size: 45px;
+    float: right;
+    margin-right: 40px;
+    color: #F5D16F;
+    font-family: 'Merriweather';
+    }
+
+.python{
+     /* css for the text py dev texts...  */
+    font-size: 21px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    }
+
+.contact{
+    /* css for contact button...  */
+    display: block;
+    text-decoration: none;
+    width: 133px;
+    font-size: 19px;
+    text-align: center;
+    color: #F5D16F;
+    border: 3px solid #F5D16F;
+    border-radius: 6px;
+    margin: 20px 20px 0 0;
+    }
+/* Top left div css ends here...
+..............................................................  */
+
+
+
+
+
+
+/* Top right side social media link css starts here...
+.............................................................. */
+#right-div{
+    height: 70vh;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    }
+
+.social-links{
+    /* fontawsome icons for social link at right...  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55px;
+    height: 200px;
+    margin-bottom: 20px; 
+    margin-right: 50px;   
+    }
+
+.social-links::before{
+    /* vertical line...  */
+    display: block;
+    content: '';
+    width: 3px;
+    height: 80px;
+    background-color: #F5D16F;
+    border-radius: 3px;
+    }
+
+.social-links a i{
+    /* fontawsome icons decoration...  */
+    font-size: 1.3rem;
+    margin: 5px;
+    }
+
+.social-links a i:hover{
+    font-size: 1.6rem;
+
+    }
+
+/* Top right side social media link css ends here...
+.............................................................. */
+
+
+
+/* about section css starts here...
+.............................................................. */
+.about-section{
+    /* about section container css...  */
+    width: 80%;
+    height: 30vh;
+    color: #ffffff;
+    font-family: 'Merriweather';
+    font-size: 1.1rem;
+    margin: auto;
+    }
+
+.about-header{
+    /* text: about h1 css...  */
+    font-family: 'Roboto';
+    width: 10%;
+    margin-top: 10px;
+    font-size: 3rem;
+    }
+    
+.para::before{
+    /* the yellow line under about header...  */
+    display: block;
+    content: '';
+    height: 3px;
+    width: 50px;
+    background-color: #F5D16F;
+    margin-bottom: -13px;
+    margin-left: -60px;
+    border-radius: 3px;
+    }
+
+.para{
+    /* paragraph after the hr line... */
+    padding-right: 20px ;
+    width: 80%;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 15px;
+    }
+
+#about-header{
+    /* about text header taking left... */
+    float: left;
+    }
+/* about section css ends here...
+.............................................................. */
+
+
+/* My skill section css starts here ...
+..............................................................*/
+.skills-section{
+    /* container of all skills card.... */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+.skills-div{
+    /* there is four skills-div in this case. each for one line of skill cards!
+    u can turn on the commented line below to whats going on... */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80vw;
+    background-color: aqua;
+    }
+
+.all-skills:hover{
+    box-shadow: 0 0 30px #ffffff;
+    }
+
+.all-skills{
+    /* design of the cards containing the skills logo... */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #34353A;
+    height: 180px;
+    width: 180px;
+    margin: 0 3%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #000000;
+    
+    }
+
+.gsc-text{
+    /* for long sectence to make 2 line */
+    width: 80%;
+    }
+
+#skills-div1, #skills-div2, #skills-div3, #skills-div4{
+    margin-top: 40px;
+    }
+
+#skills-div3{
+    width: unset;
+    width: 60vw;
+    }
+#skills-div4{
+    width: unset;
+    width: 40vw;
+    }
+
+.skills-div p{
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+    }
+.skills-div img{
+    width: 50%;
+    margin: 10px;
+    }
+.flask-text{
+    width: 85px;
+    font-size: 12px;
+    }
+
+.aws-img{
+    /* for the bg of aws logo... */
+    background-color: #ffffff;
+    border-radius: 45px;
+    }
+/* My skill section css ends here ...
+..............................................................*/
+
+
+
+/* Portfolio section  starts here...
+..............................................................*/
+/* this portfolio has two container like was 4 above... */
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.portfolio-container{
+    /* containers are here... */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    }
+
+.portfolio-div{
+    /* design for 6 portfolio items... */
+    width: 20vw;
+    height: 20vw;
+    margin: 0 10px;
+    margin: 0 10px;
+    }
+
+.portfolio-text{
+    /* texts on hover... */
+    font-size: 2.5rem;
+    font-family: 'Merriweather';
+    color: #ffffff;
+    text-align: center;
+    margin: 50px;
+    }
+
+.more{
+    /*hover more button design... */
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 0.9rem;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    background-color: #F5D16F;
+    width: 90px;
+    height: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 25px;
+    }
+#more{
+    width: 120px;
+    height: 30px;
+    margin: 10px auto;
+    }
+
+.description{
+    /* hover text description texts... */
+    width: 100%;
+    margin-top: 30%;
+    text-align: center;
+    }
+
+
+.hover-div{
+    /* properties during hovering...  */
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background-color: rgba(00, 00, 00, 0.5);
+    }
+.hover-div:hover{
+    opacity: 1;
+    }
+
+
+    /* item classes are for images css design used 
+    for portfolioi items... */
+#item1{
+    background-image: url(img/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#item2{
+    background-image: url(img/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#item3{
+    background-image: url(img/pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#item4{
+    background-image: url(img/pic4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#item5{
+    background-image: url(img/pic5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#item6{
+    background-image: url(img/pic6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+/* Portfolio section  ends here...
+.............................................................. */
+
+
+
+/* Experience section starts here...
+.............................................................. */
+.experience-container-div{
+    background-color: #3D3E42;
+    height: auto;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    }
+
+.experience{
+    /* header css for experience section... */
+    font-size: 3rem;
+    font-family: 'Merriweather';
+    color: #ffffff;
+    text-align: left;
+    margin: 50px  50px -25px 50px;
+    }
+
+.experience-div{
+    /* there is 2 experience div...
+    their css are here... */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px auto 45px auto;
+    /* background-color: teal; */
+    width: 80%;
+    height: auto;   
+    }
+
+.year-circle{
+    /* yellow circle after 2021...  */
+    margin-top: -135px;
+    width: 15%;
+    height: 40%;
+    float: left;
+    }
+
+.year{
+    /* 2021 yr and bullet arrow design for both container... */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 25px;
+    margin: 0 0 10%;
+    background-color: #5C5D60;
+    }
+.year::before{
+    /* ps */
+    margin-left: 145px;
+    margin-top: -1px;
+    border-radius: 45px;
+    box-shadow: 0 0 15px #F5D16F;
+    display: block;
+    position: absolute;    
+    width: 25px;
+    height: 25px;
+    content: '';
+    background-color: #F5D16F;  
+    }
+.year::after{
+    transform: rotate(45deg);
+    margin-left: 60px;
+    margin-top: -1px;
+    display: block;
+    position: absolute;    
+    width: 17.68px;
+    height: 17.68px;
+    content: '';
+    background-color: #5C5D60;  
+    
+    }
+.experience-info{
+    padding: 20px 20px 20px 40px;
+    height: auto;
+    width: 85%;
+    }
+.experience-info *{
+    color: #ffffff;
+    }
+
+.vr-line2{
+    /* vertical line before the experience details... */
+    margin-left: -25px;
+    margin-top: 55px;
+    border-radius: 3px;
+    display: block;
+    background-color: #ffffff;
+    height: 150px;
+    width: 4px;
+    }
+
+.experience-details{
+    /* experience details */
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: justify;
+    font-family: sans-serif;
+    }
+.info-para-h4{
+    font-weight: lighter;
+    }
+
+
+/* Experience section ends here....
+.............................................................. */
+
+
+
+/* testimonial starts here...
+.............................................................. */
+.testimonial-div-container{
+    /* its testimonial section container... */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    }
+
+
+.testimonial-left-div{
+    /* left div design which has testimonial and a quote... */
+    height: auto;
+    padding-left: 40px;
+    color: #ffffff;
+    }
+.testimonial-left-div h1{
+    font-size: 3rem;
+    margin-top: -50px;
+    font-family: 'Merriweather';
+    }
+    
+
+.testimonial-right-div{
+    /* right div with picture.... */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 330px;
+    width: 400px;
+    background-color: #F5D16F;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    }
+
+.testimonial-description{
+    width: auto;
+    margin: 50px;
+    font-family: sans-serif;
+    }
+
+.testimonial-description::before{
+    /* hr lines..... */
+    display: block;
+    height: 3px;
+    width: 40px;
+    content: '';
+    background-color: #F5D16F;
+    margin-left: -50px;
+    margin-bottom: -10px;
+    margin-right: auto;  
+    }
+
+.quotee-name{
+    margin-left: 50px;
+    font-family: 'Merriweather';
+    }
+
+.position{
+    /* ceo omisoft... */
+    font-size: 0.7rem;
+    margin-left: 20px;
+    width: auto;
+    margin-left: 70px;
+    font-family: sans-serif;
+    }
+
+.position::before{
+    /* vr line...  */
+    display: block;
+    height: 2px;
+    width: 15px;
+    content: '';
+    background-color: #F5D16F;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-bottom: -8px;
+    margin-right: 0;
+    }
+/* testimonial ends here...
+.............................................................. */
+
+
+
+/* contact container starts here...
+.............................................................. */
+.last-contact-container{
+    /* its the container.... */
+    width: 100%;
+    height: 250px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D3E42;
+
+    }
+
+.contact-text{
+    /* its the header with text contact... */
+    font-size: 3rem;
+    font-family: 'Merriweather';
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -27px;
+    }
+    
+
+.mail-phone{
+    /* mail and phone sectin css here... */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    }
+
+.mail, .phone, .addr{
+    width: 35%;
+    height: 40px;
+    margin: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #31333B;    
+    }
+
+.contact-text::after{
+    /* yellow vr lines besides contact header..... */
+    display: block;
+    content: '';
+    width: 38vw;
+    height: 3px;
+    background-color: #F5D16F;
+    float: right; 
+    margin-top: 30px; 
+    }
+
+.contact-text::before{
+    /* yellow vr lines besides social links..... */
+    display: block;
+    content: '';
+    width: 38vw;
+    height: 3px;
+    background-color: #F5D16F;
+    float: left;   
+    margin-top: 30px;  
+    }
+
+.last-social-icon{
+    height: 70px;
+    width: 220px;
+    margin: -30px auto auto auto;
+    background-color: #F5D16F;
+    }
+
+.last-social-icon-container::before{
+    /* vr lines left...  */
+    display: block;
+    content: '';
+    width: 39vw;
+    height: 3px;
+    background-color: #F5D16F;
+    float: left;  
+    margin-top: 26px;
+    
+    }
+
+.last-social-icon-container::after{
+    /* vr line righ....  */
+    display: block;
+    content: '';
+    width: 39vw;
+    height: 3px;
+    background-color: #F5D16F;
+    float: right; 
+    margin-top: -42px;  
+
+    }
+
+#icons{
+    margin: 10px;
+    }
+
+.last-social-icon *{
+    /* all 4 icon design...  */
+    width: 10px;
+    margin: 20px;
+    font-size: 1.3rem;
+    }
+/* contact container ends here.... 
+..............................................................*/
+
+
+
+/* thanking section starts here... 
+..............................................................*/
+.tnx-div{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #F5D16F;
+    margin-top: -100px;
+    margin-bottom: 60px;
+    font-family: 'Merriweather';
+    }
+/* thanking section ends here... 
+..............................................................*/
+
+
+
+
+
+
+
+
+
